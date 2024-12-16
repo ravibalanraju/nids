@@ -1,0 +1,19 @@
+import pandas as pd
+
+# Example data
+data = {
+    'duration': [0, 0, 2, 0],
+    'protocol_type': ['tcp', 'udp', 'tcp', 'icmp'],
+    'service': ['http', 'private', 'ftp', 'eco_i'],
+    'src_bytes': [181, 105, 12983, 0],
+    'dst_bytes': [5450, 146, 486, 0],
+    'flag': ['SF', 'SF', 'SF', 'SF'],
+    # Add other features here...
+    'label': ['normal', 'intrusion', 'normal', 'intrusion']
+}
+
+# Create DataFrame
+df = pd.DataFrame(data)
+
+# Save DataFrame to CSV
+df.to_csv('data/dataset.csv', index=False)
