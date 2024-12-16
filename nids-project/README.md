@@ -39,7 +39,7 @@ Open a pull request.
 - [Contact](#contact)
 - For any questions or suggestions, please feel free to contact me:
 
-Email: ravibalan79@gmail.com
+Email: ravibalan79@gmail.com   <br>
 GitHub: ravibalanraju
 
 ## Project Structure
